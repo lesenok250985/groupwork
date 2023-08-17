@@ -1,94 +1,64 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 .menu{
     display: flex;
     list-style: none;
-    cursor: pointer;
+    cursor:pointer;
 }
+
 .menu li{
-    margin:10px;
+margin:10px;
 }
 
 header{
     background-color: aqua;
-    padding: 10px 20px 5px 10px;
-}
-
-
-.head{
-    background-color: yellow;
-}
-
-
-.head{
-    background-color: pink;
+    padding : 10px 20px 5px 10px;
 }
 
 .head{
-    background-color: green;
+    background-color: rgb(71, 221, 71);
 }
 
-#green{
-    background-color: antiquewhite;
-}
-
-.head{
-    background-color: blue !important;
-}
-
-.menu_small li{
+.small_menu li{
     list-style: none;
-    color: black;
 }
 
-.menu_small{
-    display: none;
-    position: absolute;
-    border:1px solid #fff;
-    background-color: #fff;
+.small_menu{
+    display:none;
+    position:absolute;
+    border:1px solid  rgb(red,green,blue);
+    background-color: rgb(red,green,blue);
     border-radius: 8px;
-    opacity: 0.5;
 }
 
-.menu_small:hover{
-    display: block;
+.menu:first-child:hover .small_menu{
+    display:block;
 }
 
-.menu:first-child:hover .menu_small{
-    display: block;
-
-}
-
-        
-        
-.kwadrat{
-    width: 200px;
-    height: 200px;
+.square{
+    width:200px;
+    height:200px;
     background-color: aquamarine;
 }
 
-
-.kwadrat_small{
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
+.small_square{
+    width:50px;
+    height:50px;
+    background-color: rgb(198, 207, 19);
 }
-
 
 .parent{
-    position: relative;
+    position:relative;
 }
-
 
 .podmenu1{
     display:none;
 }
 
 .podmenu:hover .podmenu1{
-    display: block;
-    transition: .5;
-    
+display:block;
+transition: .5;
 }
