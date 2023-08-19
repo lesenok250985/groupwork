@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url('../fonts/ubuntu-light/Ubuntu-Light.eot');
+    src: url('../fonts/ubuntu-light/Ubuntu-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ubuntu-light/Ubuntu-Light.woff2') format('woff2'),
+        url('../fonts/ubuntu-light/Ubuntu-Light.woff') format('woff'),
+        url('../fonts/ubuntu-light/Ubuntu-Light.ttf') format('TrueType');
+        
+    
+}
+

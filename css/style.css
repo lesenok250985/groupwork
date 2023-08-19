@@ -6,89 +6,147 @@
 .menu{
     display: flex;
     list-style: none;
-    cursor: pointer;
-}
-.menu li{
-    margin:10px;
+    
 }
 
 header{
-    background-color: aqua;
-    padding: 10px 20px 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    margin-top: 200px;
+    max-width: 1186px;
+    margin-left: 360px;
+    
+    
 }
 
-
-.head{
-    background-color: yellow;
-}
-
-
-.head{
-    background-color: pink;
-}
-
-.head{
-    background-color: green;
-}
-
-#green{
-    background-color: antiquewhite;
-}
-
-.head{
-    background-color: blue !important;
-}
-
-.menu_small li{
-    list-style: none;
-    color: black;
+.menu li{
+    margin: 15px;
+    font-size: 17px;
+    font-family: "Ubuntu-Light";
+    list-style-type: none;
+    
+    
+    
+    
+    
 }
 
 .menu_small{
     display: none;
+    top: 50px;
+    border-color:black;
     position: absolute;
-    border:1px solid #fff;
-    background-color: #fff;
-    border-radius: 8px;
-    opacity: 0.5;
+    list-style-type: none;
+    box-shadow: 0px 0px 7px 0px;
+    width: 1186px;
+    margin: -15px;
+    font-size: 5px;
+    max-height: 300px;
+    padding: 0px 0px 70px 0px;
+   
+    
 }
 
-.menu_small:hover{
-    display: block;
+.menu_small2{
+    display: none;
+    top: 50px;
+    border-color:black;
+    position: absolute;
+    list-style-type: none;
+    box-shadow: 0px 0px 7px 0px;
+    width: 1186px;
+    margin: 0px;
+    margin-left: -94px;
+}
+.menu_small3{
+    display: none;
+    top: 50px;
+    border-color:black;
+    position: absolute;
+    list-style-type: none;
+    box-shadow: 0px 0px 7px 0px;
+    width: 1186px;
+    margin: 0px;
+    margin-left: -214px;
+    max-height: 200px; 
 }
 
-.menu:first-child:hover .menu_small{
-    display: block;
-
+.shoes:hover .menu_small{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    
+    
+    
 }
 
-        
-        
-.kwadrat{
-    width: 200px;
-    height: 200px;
-    background-color: aquamarine;
+.shoes{
+    position: relative;
+    text-decoration: none;
+    color: black;
 }
 
-
-.kwadrat_small{
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
+.shoes:hover{
+    background-color: rgb(249,248,246);
+}
+.menu_small li{
+    margin: 20px;
+    list-style: none;
+    padding: 0px 200px 0px 0px; 
 }
 
+.menu_small2 li{
+    margin: 35px;
+    list-style: none;
+}
 
-.parent{
+.menu_small3 li{
+    margin: 20px;
+    list-style: none;
+    padding: 25px 200px 0px 0px;
+}
+
+.aksesuar {
+    text-decoration: none;
+    color: black;
     position: relative;
 }
 
-
-.podmenu1{
-    display:none;
+.aksesuar:hover{
+    background-color: rgb(249,248,246);
 }
 
-.podmenu:hover .podmenu1{
-    display: block;
-    transition: .5;
+.aksesuar:hover .menu_small2{
+    display: flex;
+}
+
+
+.shoes_care{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.shoes_care:hover{
+    background-color: rgb(249, 248, 246);
+}
+
+.shoes_care:hover .menu_small3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
     
 }
+.textpole{
+    border: none;
+    outline: none;
+    background-color: rgb(249, 248, 246);
+    font-size: 17px;
+    width: 100px;
+}
+
