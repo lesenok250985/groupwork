@@ -1,106 +1,52 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.header{
-    height:100px;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.flex-container {
+  border: 5px solid black;
+  display: flex;
+  border-top-left-radius: 55px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 300px;
+  border-top-right-radius: 55px;
+  flex-wrap: wrap;
+  text-align: right;
+ 
+}
+.red {
+  background-color: rgb(239, 72, 72);
+  padding: 70px 300px 100px 100px;
+  border-top-left-radius: 50px;
+  flex-grow: 1;
+}
+.yellow {
+  background-color: orange;
+  padding: 70px 300px 100px 100px;
+  border-top-right-radius: 50px;
+  flex-grow: 1;
 }
 
-.right_header, .left_header{
-    width:33%;
-    height:100px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.purple {
+  background-color: purple;
+  padding: 100px 200px 40px 100px;
+  flex-grow: 1;
 }
 
-.right_header div, .left_header div{
-    padding: 20px;
-    cursor: pointer;
+.green {
+  background-color: green;
+  padding: 100px 200px 40px 100px;
+  flex-grow: 1;
 }
 
-.pratik{
-    width:33%;
-    height:100px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-family: cursive;
-    font-size: 50px;
+.aqua {
+  background-color: rgb(3, 156, 156);
+  padding: 100px 200px 40px 100px;
+  flex-grow: 1;
+}
+span{
+    font-size: 40px;
+
 }
 
-.line{
-    background: gray;
-    height:0.5px;
-}
-
-.main_div{
-    height:70px;
-    width:100%;
-    display:flex;
-    align-items: center;
-    justify-content: left;
-}
-
-.menu_items{
-    display:none;
-    position: absolute;
-    top: 60px;
-    background-color: white;
-    list-style: none;
-}
-
-
-.menu{
-    list-style: none;
-    display: flex;
-    position: relative;
-    cursor: pointer;
-}
-
-
-.menu li{
-   padding: 30px;
-}
-
-.menu_items li{
-    margin-top:10px;
-    margin-left: 2px;
-    padding: 0;
-}
-
-.menu li:first-child:hover .items1{
-    display:block;
-}
-
-.menu li:nth-child(2):hover .items2{
-    display:block;
-}
-
-.menu li:nth-child(3):hover .items3{
-    display:block;
-}
-
-img{
-    height: 20px;
-    width: 20px;
-}
-
-.content_search, .payment{
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.content_search{
-    padding: 20px;
-    margin-left: 150px;
-}
