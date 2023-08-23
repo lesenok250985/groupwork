@@ -3,7 +3,20 @@
 /*mobile first  - от меньшого до більшого
 desktop first - от більшого до меньшого*/
 
-@media screen (min-width:980px){
+
+/*mobile first*/
+@media (max-width:980px){
+    .background{
+        display:none;
+
+    }
+}
+
+
+/*desktop first*/
+/*@media (min-width:1200px)*/
+
+@media (min-width:560px) and (max-width:980px){
     .background{
         display:none;
 
