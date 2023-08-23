@@ -1,0 +1,11 @@
+/*breakpoints*/
+/*mobile version - 320- 560,560-980 - planszet,desktop - 980 i >*/
+/*mobile first  - от меньшого до більшого
+desktop first - от більшого до меньшого*/
+
+@media screen (min-width:980px){
+    .background{
+        display:none;
+
+    }
+}
