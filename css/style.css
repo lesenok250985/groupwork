@@ -1,29 +1,59 @@
-.block{
-  width: 33%;
-  height: auto;
-  background-color: aqua;
-  padding: 10px;
-  margin: 10px;
 
+.main_div{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1.5px solid #000000;
+    border-radius: 12px 12px 0px 0px;
+}
+.red, .orange, .blue, .green, .purple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49%;
+    flex-grow: 1;
 }
 
-.parent{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.purple, .blue, .green{
+    width: 33%;
 }
 
-
-.background{
-  background-image: url("../img/bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: justify;
-
+.red, .orange{
+    width: 49%;
 }
 
-
-.background p{
-  padding:50px;
+.red{
+    background-color: red;
+    border-radius: 12px 0px 0px 0px;
 }
 
+.orange{
+    background-color: orange;
+    border-radius: 0px 12px 0px 0px;
+}
+
+.purple{
+    background-color: rebeccapurple;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+  
+  .flex-container {
+    border: 5px solid black;
+    display: flex;
+    border-top-left-radius: 55px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 300px;
+    border-top-right-radius: 55px;
+    flex-wrap: wrap;
+    text-align: right;
+   
+  }
