@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "Poppins-blak";
+  src:url("fonts/Poppins-Blak/Poppins-Black.eot") format(eot),
+  url("/fonts/Poppins-Blak/Poppins-Black.svg") format(svg) ,
+  url("fonts/Poppins-Blak/Poppins-Black.ttf") format(truetype),
+  url("fonts/Poppins-Blak/Poppins-Black.woff") format(woff),
+  url("fonts/Poppins-Blak/Poppins-Black.woff2") format(woff2);
+}
