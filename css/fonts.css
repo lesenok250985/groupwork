@@ -1,8 +1,8 @@
-@font-face{
-    font-family: "Poppins-blak";
-  src:url("fonts/Poppins-Blak/Poppins-Black.eot") format(eot),
-  url("/fonts/Poppins-Blak/Poppins-Black.svg") format(svg) ,
-  url("fonts/Poppins-Blak/Poppins-Black.ttf") format(truetype),
-  url("fonts/Poppins-Blak/Poppins-Black.woff") format(woff),
-  url("fonts/Poppins-Blak/Poppins-Black.woff2") format(woff2);
+@font-face {
+    font-family: "ADLaMDisplay";
+    src: url(../fonts/ADLaM_Display/ADLaMDisplay-Regular.eot) format(eot),
+    url(../fonts/ADLaM_Display/ADLaMDisplay-Regular.svg) format(svg),
+    url(../fonts/ADLaM_Display/ADLaMDisplay-Regular.ttf) format(ttf),
+    url(../fonts/ADLaM_Display/ADLaMDisplay-Regular.woff) format(woff),
+    url(../fonts/ADLaM_Display/ADLaMDisplay-Regular.woff2) format(woff2);
 }
